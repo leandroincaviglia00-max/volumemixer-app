@@ -1,0 +1,7 @@
+// Build script di root: i plugin sono dichiarati qui e applicati nel modulo :app
+plugins {
+    id("com.android.application") version "8.6.1" apply false
+    id("org.jetbrains.kotlin.android") version "2.0.20" apply false
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.20" apply false
+    id("org.jetbrains.kotlin.plugin.serialization") version "2.0.20" apply false
+}

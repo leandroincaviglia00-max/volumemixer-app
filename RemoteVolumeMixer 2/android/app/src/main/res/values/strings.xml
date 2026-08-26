@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Volume Mixer</string>
+    <string name="app_title">REMOTE VOLUME MIXER</string>
+    <string name="notification_channel_name">USB bridge</string>
+    <string name="notification_channel_description">Keeps the USB link with the Windows client alive</string>
+    <string name="notification_title">Remote Volume Mixer</string>
+    <string name="notification_connected">USB connected</string>
+    <string name="notification_waiting">Waiting for the Windows client</string>
+</resources>
