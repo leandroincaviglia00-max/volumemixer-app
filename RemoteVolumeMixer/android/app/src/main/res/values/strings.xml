@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Remote Volume Mixer</string>
+    <string name="tagline">Control your PC audio remotely.</string>
+</resources>

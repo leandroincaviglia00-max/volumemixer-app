@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The server lives on the local network and speaks plain ws:// + http://.
+  TLS on a LAN-only appliance would mean shipping a self-signed cert and
+  teaching users to trust it, so cleartext is allowed on purpose.
+  The app never talks to anything but the IP the user typed in.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

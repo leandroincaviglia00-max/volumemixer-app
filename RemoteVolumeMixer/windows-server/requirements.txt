@@ -1,0 +1,14 @@
+# Remote Volume Mixer - Windows server dependencies
+# Install with:   pip install -r requirements.txt
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+websockets==14.1
+pycaw==20240210
+comtypes==1.4.8
+psutil==6.1.1
+
+# Optional, only needed to extract real application icons from the .exe files.
+# The server works without them (clients fall back to generic icons).
+pywin32==308
+Pillow==11.1.0
